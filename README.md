@@ -1,4 +1,4 @@
-# manage_types
+# Gerenciador de Tipos
  Simplified management of types, categories and subcategories
 
 ## Instalação
@@ -14,7 +14,7 @@ Assim que terminar você precisar registrar o ServiceProvider no seu arquivo `ap
 ];
 ```
 
-Agora execute o comando abaixo para publicar as configurações necessárias
+Agora execute o comando abaixo caso deseje publicar as configurações necessárias
 ```
 php artisan vendor:publish --provider="EniumCriacaoSites\Types\Providers\TypeServiceProvider"
 ```
@@ -24,7 +24,7 @@ Execute o comando abaixo para criar as tabelas no banco de dados
 php artisan migrate
 ```
 
-Rotas disponíveis`
+Rotas disponíveis
 ```
 GET /api/types 
 POST /api/types - Parâmetros: name, description, group (string para agrupar os tipos), type_id (ID do type pai), is_active (true,false)
