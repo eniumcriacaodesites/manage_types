@@ -1,0 +1,17 @@
+{
+    "name": "eniumcriacaosites/types",
+    "description": "Gerenciador de e agrupador tipos e subtipos de dados",
+    "authors": [{
+        "name": "Carlos da Silva",
+        "email": "carlos@enium.com.br"
+    }],
+    "autoload": {
+        "psr-4": {
+            "EniumCriacaoSites\\Types\\": "src/"
+        }
+    },
+    "license": "Mit",
+    "require": {
+        "tucker-eric/eloquentfilter": "^3.1"
+    }
+}
